@@ -1,0 +1,45 @@
+Thu,07 Jan 2021 19:35:41 log.py[line:23] DEBUG debug
+Thu,07 Jan 2021 19:35:41 log.py[line:24] INFO info
+Thu,07 Jan 2021 19:35:41 log.py[line:25] WARNING warning
+Thu,07 Jan 2021 19:35:41 log.py[line:26] ERROR error
+Thu,07 Jan 2021 19:35:41 log.py[line:27] CRITICAL critical
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "POST /poll/1/vote/ HTTP/1.1" 200 39
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:31] INFO testvote1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:32] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:33] INFO 实际返回结果：{'status': '200', 'message': 'success'}
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "POST /poll/1/vote/ HTTP/1.1" 200 66
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:31] INFO testvote1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:32] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:33] INFO 实际返回结果：{'status': '10022', 'message': 'The problem is not the choice id'}
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "GET /poll/ HTTP/1.1" 200 125
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:69] INFO testpolls1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:70] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:71] INFO 实际返回结果：{'status': '200', 'message': 'success', 'data': {'1': '元旦去哪里玩？', '2': 'how old are you?'}}
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "GET /poll/ HTTP/1.1" 200 125
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:69] INFO testpolls1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:70] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:71] INFO 实际返回结果：{'status': '200', 'message': 'success', 'data': {'1': '元旦去哪里玩？', '2': 'how old are you?'}}
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "GET /poll/ HTTP/1.1" 200 125
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:69] INFO testpolls1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:70] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:71] INFO 实际返回结果：{'status': '200', 'message': 'success', 'data': {'1': '元旦去哪里玩？', '2': 'how old are you?'}}
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "POST /poll/1/vote/ HTTP/1.1" 200 39
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:31] INFO testvote1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:32] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:33] INFO 实际返回结果：{'status': '200', 'message': 'success'}
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "POST /poll/1/vote/ HTTP/1.1" 200 66
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:31] INFO testvote1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:32] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:33] INFO 实际返回结果：{'status': '10022', 'message': 'The problem is not the choice id'}
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8000
+Thu,07 Jan 2021 19:35:41 connectionpool.py[line:393] DEBUG http://127.0.0.1:8000 "GET /poll/ HTTP/1.1" 200 125
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:69] INFO testpolls1-1
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:70] INFO 通过
+Thu,07 Jan 2021 19:35:41 TestRequest.py[line:71] INFO 实际返回结果：{'status': '200', 'message': 'success', 'data': {'1': '元旦去哪里玩？', '2': 'how old are you?'}}

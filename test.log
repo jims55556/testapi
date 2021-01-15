@@ -1,0 +1,5 @@
+2021-01-07 17:31:15,977 logtest.py[line:11] DEBUG debug
+2021-01-07 17:31:15,977 logtest.py[line:12] INFO info
+2021-01-07 17:31:15,977 logtest.py[line:13] WARNING warning
+2021-01-07 17:31:15,977 logtest.py[line:14] ERROR error
+2021-01-07 17:31:15,977 logtest.py[line:15] CRITICAL critical
